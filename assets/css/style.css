@@ -31,3 +31,40 @@ body {
     color: white;
     font-weight: 300 !important;
 }
+
+#destacados {
+    color: white;
+    background-color: transparent;
+}
+
+#destacado1 .image-top {
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 300 !important;
+}
+
+#destacado2 .image-top {
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 300 important;
+}
+
+#destacado3 .image-top {
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 300 important;
+}
+
+#destacado4 .image-top {
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 300 important;
+}
