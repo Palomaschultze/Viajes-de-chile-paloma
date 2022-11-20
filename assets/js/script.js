@@ -1,1 +1,0 @@
-alert("Estoy ejecutando la función alert");

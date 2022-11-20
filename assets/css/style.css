@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif !important;
+}
+
+#estilonav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#quienessomos {
+    color: white;
+    background-color: transparent;
+}
+
+#quienes1 {
+    background-color: transparent;
+    color: white;
+    font-weight: 300 !important;
+}
+
+#quienes2 {
+    background-color: transparent;
+    color: white;
+    font-weight: 300 !important;
+}
+
+#quienes3 {
+    background-color: transparent;
+    color: white;
+    font-weight: 300 !important;
+}
