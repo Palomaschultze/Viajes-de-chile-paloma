@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: black !important;
     font-family: 'Lato', sans-serif !important;
 }
 
@@ -67,4 +67,9 @@ body {
     background-size: cover;
     background-position: center;
     font-weight: 300 important;
+}
+
+#final {
+    display: flex;
+    justify-content: space-between;
 }
