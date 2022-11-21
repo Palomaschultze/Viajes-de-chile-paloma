@@ -179,10 +179,35 @@
                 <label for="textocomentario" class="form-label">Comentario</label>
                 <textarea class="form-control" id="textocomentario" rows="5"></textarea>
             </div>
+            <!-- Tooltip (bootstrap v5.1) -->
             <button type="submit" class="btn btn-info text-white" data-bs-toggle="tooltip" data-bs-placement="top"
                 title="Enviar comentario">Enviar</button>
+            <!-- Button trigger modal (bootstrap v5.1) -->
+            <button type="button" class="btn btn-info text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Saber más
+            </button>
         </form>
     </section>
+
+    <!-- Modal (bootstrap v5.1) -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Saber más</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Para saber más contactanos de lunes a viernes entre 8:00 y 17:30 por WhatsApp al siguiente número x
+                    xxxx xxx
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -201,10 +226,12 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 
     <!--Custom JS-->
     <script src="assets/js/jquery-3.6.1.min.js"></script>
 </body>
+
 </html>
